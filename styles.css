@@ -90,14 +90,16 @@ body {
   object-fit: fill;
 }
 
+/* Изменение здесь: добавили .schedule-photo img для правильного кропа */
 .hero-photo img,
 .couple-photo img,
+.schedule-photo img,
 .place-photo img {
   object-fit: cover;
 }
 
+/* И убрали .schedule-photo img отсюда */
 .invite-photo img,
-.schedule-photo img,
 .palette-photo img,
 .details-photo img {
   object-fit: fill;
